@@ -1,0 +1,32 @@
+{
+    "model_zoo": {
+        "x-vla-widowx": {
+            "source": "huggingface",
+            "repo_id": "2toINF/X-VLA-WidowX",
+            "local_path": "models/huggingface/2toINF/X-VLA-WidowX",
+            "description": "X-VLA model fine-tuned for WidowX robot",
+            "adapter_class": "botmind.vla.x_vla_adapter.XVLAAdapter"
+        },
+        "x-vla-libero": {
+            "source": "huggingface",
+            "repo_id": "2toINF/X-VLA-Libero",
+            "local_path": "models/huggingface/2toINF/X-VLA-Libero",
+            "description": "X-VLA model for Libero benchmark",
+            "adapter_class": "botmind.vla.x_vla_adapter.XVLAAdapter"
+        },
+        "openvla-7b": {
+            "source": "huggingface",
+            "repo_id": "openvla/openvla-7b",
+            "local_path": "models/huggingface/openvla/openvla-7b",
+            "description": "OpenVLA 7B: An open-source alternative to Google RT-2",
+            "adapter_class": "botmind.vla.openvla_adapter.OpenVLAAdapter"
+        },
+        "google-rt2-manual": {
+            "source": "manual",
+            "repo_id": "google/rt-2",
+            "local_path": "models/manual/google/rt-2",
+            "description": "Google RT-2 (Weights not public - Placeholder for manual import)",
+            "adapter_class": "botmind.vla.rt2_adapter.RT2Adapter"
+        }
+    }
+}
