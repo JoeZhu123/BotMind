@@ -1,6 +1,6 @@
-# BotMind AI Inference Framework
+# BotMind AI System Framework
 
-BotMind 是一个专为具身智能（Embodied AI）设计的机器人大模型推理框架，支持 NVIDIA Jetson 平台及未来自研 AI 芯片。
+BotMind 是一个专为具身智能（Embodied AI）设计的机器人大模型系统框架，支持 NVIDIA Jetson 平台及未来自研 AI 芯片。
 
 ## 目录结构
 *   `core/`: 核心推理引擎与接口定义 (C++)
